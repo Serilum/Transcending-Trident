@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "transcendingtrident",
-  "version": "4.5",
+  "version": "4.6",
 
   "name": "Transcending Trident",
   "description": "Improves the vanilla trident. Hold a water bucket to use riptide, which is more powerful.",
@@ -18,7 +18,7 @@
   "environment": "*",
   "entrypoints": { "main": [ "com.natamus.transcendingtrident.ModFabric" ], "modmenu": [ "com.natamus.transcendingtrident.fabric.config.IntegrateModMenu" ] },
   "mixins": [
-    "transcendingtrident_fabric.mixins.json"
+    "transcendingtrident.mixins.json"
   ],
 
   "depends": {
@@ -26,7 +26,7 @@
     "fabric": "*",
     "minecraft": ">=1.19",
     "java": ">=17",
-    "collective": ">=7.21"
+    "collective": ">=7.26"
   },
 
   "custom": {
