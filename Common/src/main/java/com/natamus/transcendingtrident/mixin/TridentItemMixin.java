@@ -1,13 +1,15 @@
-package com.natamus.transcendingtrident.neoforge.mixin;
+package com.natamus.transcendingtrident.mixin;
+
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.ModifyVariable;
 
 import com.natamus.transcendingtrident.config.ConfigHandler;
+
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TridentItem;
 import net.minecraft.world.level.Level;
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.ModifyVariable;
 
 @Mixin(value = TridentItem.class, priority = 1001)
 public class TridentItemMixin {
