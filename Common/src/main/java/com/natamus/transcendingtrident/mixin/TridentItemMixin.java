@@ -1,4 +1,4 @@
-package com.natamus.transcendingtrident.fabric.mixin;
+package com.natamus.transcendingtrident.mixin;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
