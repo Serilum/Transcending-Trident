@@ -1,8 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.transcendingtrident.fabric.mixin",
-  "plugin": "com.natamus.collective.fabric.mixin.plugin.FabricMixinConfigPlugin",
+  "package": "com.natamus.transcendingtrident.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "EntityMixin",
