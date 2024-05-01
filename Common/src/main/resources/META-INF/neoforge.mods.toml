@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Transcending%20Trident"
+logoFile="icon.png"
+
+[[mods]]
+modId="transcendingtrident"
+version="4.6"
+displayName="Transcending Trident"
+displayURL="https://serilum.com/mod/transcending-trident"
+authors="Rick South"
+description='''Improves the vanilla trident. Hold a water bucket to use riptide, which is more powerful.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+Alister, Andrean Olgo, aternosorg, BirdieMiner, Cherriesaurus, Jack, Jeremy Langford, Michael W. S., pepe1191, Shana Gitnick, Tyler Behl   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.transcendingtrident]]
+    modId="collective"
+    type="required"
+    versionRange="[7.54,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.transcendingtrident]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.6]"
+    ordering="NONE"
+    side="BOTH"
+
+[[mixins]]
+    config = "transcendingtrident.mixins.json"
