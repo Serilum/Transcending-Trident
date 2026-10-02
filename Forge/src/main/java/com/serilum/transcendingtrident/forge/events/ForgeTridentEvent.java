@@ -1,6 +1,6 @@
-package com.natamus.transcendingtrident.forge.events;
+package com.serilum.transcendingtrident.forge.events;
 
-import com.natamus.transcendingtrident.events.TridentEvent;
+import com.serilum.transcendingtrident.events.TridentEvent;
 import net.minecraft.world.InteractionResult;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

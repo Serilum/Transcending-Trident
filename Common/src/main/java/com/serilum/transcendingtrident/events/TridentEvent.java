@@ -1,4 +1,4 @@
-package com.natamus.transcendingtrident.events;
+package com.serilum.transcendingtrident.events;
 
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;

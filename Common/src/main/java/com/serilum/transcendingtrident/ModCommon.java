@@ -1,6 +1,6 @@
-package com.natamus.transcendingtrident;
+package com.serilum.transcendingtrident;
 
-import com.natamus.transcendingtrident.config.ConfigHandler;
+import com.serilum.transcendingtrident.config.ConfigHandler;
 
 public class ModCommon {
 

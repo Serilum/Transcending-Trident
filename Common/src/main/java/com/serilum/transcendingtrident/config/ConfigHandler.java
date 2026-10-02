@@ -1,7 +1,7 @@
-package com.natamus.transcendingtrident.config;
+package com.serilum.transcendingtrident.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.transcendingtrident.util.Reference;
+import com.serilum.transcendingtrident.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

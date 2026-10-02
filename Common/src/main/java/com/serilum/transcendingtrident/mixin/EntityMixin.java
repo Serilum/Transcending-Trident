@@ -1,4 +1,4 @@
-package com.natamus.transcendingtrident.mixin;
+package com.serilum.transcendingtrident.mixin;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -6,7 +6,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import com.natamus.collective.functions.PlayerFunctions;
-import com.natamus.transcendingtrident.config.ConfigHandler;
+import com.serilum.transcendingtrident.config.ConfigHandler;
 
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;

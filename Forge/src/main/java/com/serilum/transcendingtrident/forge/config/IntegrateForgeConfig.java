@@ -1,7 +1,7 @@
-package com.natamus.transcendingtrident.forge.config;
+package com.serilum.transcendingtrident.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.transcendingtrident.util.Reference;
+import com.serilum.transcendingtrident.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

@@ -1,9 +1,9 @@
-package com.natamus.transcendingtrident;
+package com.serilum.transcendingtrident;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.transcendingtrident.events.TridentEvent;
-import com.natamus.transcendingtrident.util.Reference;
+import com.serilum.transcendingtrident.events.TridentEvent;
+import com.serilum.transcendingtrident.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.UseItemCallback;
 

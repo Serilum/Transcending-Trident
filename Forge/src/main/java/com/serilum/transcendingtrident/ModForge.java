@@ -1,10 +1,10 @@
-package com.natamus.transcendingtrident;
+package com.serilum.transcendingtrident;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.transcendingtrident.forge.config.IntegrateForgeConfig;
-import com.natamus.transcendingtrident.forge.events.ForgeTridentEvent;
-import com.natamus.transcendingtrident.util.Reference;
+import com.serilum.transcendingtrident.forge.config.IntegrateForgeConfig;
+import com.serilum.transcendingtrident.forge.events.ForgeTridentEvent;
+import com.serilum.transcendingtrident.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -32,7 +32,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeTridentEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeTridentEvent.class);
 	}
 
 	private static void setGlobalConstants() {
