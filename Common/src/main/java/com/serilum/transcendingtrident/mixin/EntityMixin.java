@@ -5,8 +5,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import com.natamus.collective.functions.PlayerFunctions;
 import com.serilum.transcendingtrident.config.ConfigHandler;
+import com.serilum.transcendingtrident.util.Util;
 
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
@@ -19,10 +19,16 @@ public class EntityMixin {
 		Entity entity = (Entity)(Object)this;
 		if (entity instanceof Player) {
 			Player player = (Player)entity;
-			if (PlayerFunctions.isHoldingWater(player) || !ConfigHandler.mustHoldBucketOfWater) {
-				if (player.getMainHandItem().getItem() instanceof TridentItem || player.getOffhandItem().getItem()  instanceof TridentItem) {
-					ci.setReturnValue(true);
-				}
+			if (!(player.getMainHandItem().getItem() instanceof TridentItem) && !(player.getOffhandItem().getItem() instanceof TridentItem)) {
+				return;
+			}
+
+			if (!Util.canUseRiptideAtCurrentHeight(player)) {
+				return;
+			}
+
+			if (Util.isHoldingRiptideItem(player) || !ConfigHandler.mustHoldBucketOfWater) {
+				ci.setReturnValue(true);
 			}
 		}
 	}
